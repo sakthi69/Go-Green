@@ -1,0 +1,174 @@
+
+.header{
+    margin: 50px;
+    height: 700px;
+    box-shadow:0 0 30px   #999b84;
+    line-height: 1;
+    background-image: url('forest.jpg'), url('laptop\(1\).jpg');
+    background-repeat: no-repeat, no-repeat;
+    background-size: 50% 100%;
+    background-position: left top, right top;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  li{
+    display : inline;
+    float: right;
+    padding:10px;
+    padding-top: 30px;
+    
+  }
+  
+  li a{
+    color:white;
+    display : block;
+    text-decoration: none;
+    font-size:1.5rem;
+  }
+  li a:hover{
+    color:black;
+    text-shadow:0 0 20px white;
+    transform: scale(1.1);
+  }
+  .space{
+    
+    visibility: hidden;
+  }
+  .forest-img{
+    margin-right: 600px;
+  }
+  .head{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 4rem;
+    text-align: right;
+    margin-right: 100px;
+    
+  }
+  .heading{
+    font-family: 'Dancing Script', cursive;
+    color: yellowgreen;
+    font-size: 6rem;
+    text-align:right;
+    margin-right: 100px;
+    margin-top: 200px;
+    
+  }
+  
+  .middle{
+    text-align: center;
+    padding-bottom :100px; ;
+  }
+
+  .about{
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+    color:#999b84;
+    font-stretch:extra-expanded;
+  }
+  .welcome{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+    color:yellowgreen ;
+  }
+  p{
+    font-family: 'Josefin Sans', sans-serif;
+    color:#798777;
+    font-size: 1.5rem;
+    
+
+  }
+  h3{
+    font-size:2rem;
+    color:#51c4d3 ;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .work{
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:#222831 ;
+  line-height: 0.5rem;
+  padding-bottom: 50px;
+  }
+  .table-head{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+    color:yellowgreen ;
+    text-align: right;
+  }
+  .table{
+    color: white;
+    text-align: right;
+    line-height: 3rem;
+    
+
+  }
+  .b:hover{
+      transform: scale(1.01);
+      box-shadow: 0 0 20px #999b84;
+  }
+  .btn {
+    -webkit-border-radius: 13;
+    -moz-border-radius: 13;
+    border-radius: 13px;
+    font-family: Arial;
+    color: #120d12;
+    font-size: 30px;
+    background: #9ACD32;
+    padding: 10px 22px 10px 22px;
+    border: solid #010203 3px;
+    text-decoration: none;
+    margin-right: 50px;
+  }
+  
+  .btn:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 20px #999b84;
+  }
+  .footer{
+    height: 600px;
+    background-image: url('laptop\(1\).jpg');
+  }
+  .foot-logo{
+    margin: 100px;
+    float: left;
+  }
+  .foot-logo:hover
+  {
+    transform: scale(1.2);
+    box-shadow: 0 0 20px #999b84;
+  }
+  .foot{
+    font-family: 'Josefin Sans', sans-serif;
+    color: yellowgreen;
+    font-size: 4rem;
+    text-align: left;
+    
+  }
+  .footing{
+    font-family: 'Dancing Script', cursive;
+    color: yellowgreen;
+    font-size: 6rem;
+    text-align:left;
+    line-height: 0.5;
+  }
+    
+  .address{ 
+    
+    color: #ffffff;
+    font-size: 2rem;
+    line-height: 1.5;
+    
+  }
+  .copyright {
+    color: #EAF6F6;
+    font-size: 1.5rem;
+    padding: 20px 0;
+  }
